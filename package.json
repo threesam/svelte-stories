@@ -1,0 +1,25 @@
+{
+  "name": "svelte-stories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "build": "build-storybook -c .storybook -o public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.7",
+    "@storybook/addon-actions": "^6.1.3",
+    "@storybook/addon-essentials": "^6.1.3",
+    "@storybook/addon-links": "^6.1.3",
+    "@storybook/svelte": "^6.1.3",
+    "babel-loader": "^8.2.1",
+    "svelte": "^3.29.7",
+    "svelte-loader": "^2.13.6"
+  },
+  "dependencies": {}
+}
